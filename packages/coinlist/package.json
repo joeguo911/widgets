@@ -1,7 +1,7 @@
 {
-  "name": "@cryptotest/coinblocks",
+  "name": "@cryptotest/coinlist",
   "version": "1.0.0",
-  "description": "A coin blocks widget",
+  "description": "A coin list widget",
   "keywords": [
     "react",
     "component"
@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joeguo911/widgets.git",
-    "directory": "packages/coinblocks"
+    "directory": "packages/coinlist"
   },
   "scripts": {
     "prebuild": "rimraf dist",

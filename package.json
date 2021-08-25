@@ -16,13 +16,15 @@
     "pkg": "manypkg run",
     "check:pkgs": "manypkg check",
     "fix:pkgs": "manypkg fix",
-    "build": "lerna run build",
     "prestart": "yarn && yarn bootstrap",
     "boot": "yarn prestart && yarn build",
-    "clean": "lerna clean --yes && rimraf node_modules",
-    "clean-dist": "yarn lerna exec -- rimraf dist",
     "commit": "git-cz",
-    "release": "changeset publish"
+    "release workflow comments:": "/* 1.run 'yarn build' 2.run 'yarn version' 3.run 'yarn release' */",
+    "build": "lerna run build",
+    "version": "lerna version",
+    "release": "lerna publish from-git",
+    "clean": "yarn lerna exec -- rimraf dist",
+    "clean:all": "lerna clean --yes && rimraf node_modules"
   },
   "config": {
     "commitizen": {
