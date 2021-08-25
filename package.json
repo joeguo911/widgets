@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/joeguo911/widgets.git"
   },
-  "author": "joe.guo@crypto.com ",
+  "author": "joe.guo <joe.guo@crypto.com>",
   "license": "MIT",
   "scripts": {
     "pkg": "manypkg run",

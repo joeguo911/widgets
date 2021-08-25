@@ -6,7 +6,7 @@
     "react",
     "component"
   ],
-  "author": "joe.guo@crypto.com",
+  "author": "joe.guo <joe.guo@crypto.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
