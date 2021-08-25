@@ -1,5 +1,5 @@
 {
-  "name": "@widget/coinblocks",
+  "name": "@cryptotest/coinblocks",
   "version": "1.0.1",
   "description": "A coin blocks widget",
   "keywords": [
@@ -47,5 +47,5 @@
   "peerDependencies": {
     "react": ">=16.8.6"
   },
-  "gitHead": "86d9d1cf334ec95fdd400d05811fbeb129492b2d"
+  "gitHead": "56c96d48d574df3308058bb714e00d204e336974"
 }
