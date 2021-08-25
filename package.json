@@ -21,8 +21,7 @@
     "boot": "yarn prestart && yarn build",
     "clean": "lerna clean --yes && rimraf node_modules",
     "clean-dist": "yarn lerna exec -- rimraf dist",
-    "commit": "git-cz",
-    "version": "lerna version --conventional-commits"
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
