@@ -9,7 +9,6 @@
     "publish": {
       "verifyAccess": false,
       "verifyRegistry": false,
-      "conventionalCommits": true,
       "message": "chore(release): publish",
       "ignoreChanges": ["**/stories/**", "**/tests/**"],
       "allowBranch": "main"
