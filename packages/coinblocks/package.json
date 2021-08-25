@@ -1,6 +1,6 @@
 {
   "name": "@widget/coinblocks",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "description": "A coin blocks widget",
   "keywords": [
     "react",
@@ -47,5 +47,5 @@
   "peerDependencies": {
     "react": ">=16.8.6"
   },
-  "gitHead": "2ccc357c96bf497738ff8abcd62d9f3ada1a9706"
+  "gitHead": "dcac3edfb5b11c2e71370e9a2eac66bebdb4d62d"
 }
