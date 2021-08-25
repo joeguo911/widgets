@@ -7,8 +7,6 @@
   "command": {
     "version": { "exact": true },
     "publish": {
-      "verifyAccess": false,
-      "verifyRegistry": false,
       "message": "chore(release): publish",
       "ignoreChanges": ["**/stories/**", "**/tests/**"],
       "allowBranch": "main"
