@@ -1,8 +1,8 @@
 import * as React from "react"
 
 type CoinListProps = {
-    tokenNames: string[]
+    slugs: string[]
 }
-export const CoinList = ({tokenNames}: CoinListProps) => {
-    return <div>this is coin list version {tokenNames.join(',')}</div>
+export const CoinList = ({slugs}: CoinListProps) => {
+    return <div>this is coin list version {slugs.join(',')}</div>
 }

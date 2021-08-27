@@ -12,7 +12,7 @@ packages/*/.env
 *.log
 *.cache
 yarn-error.log
-
+examples/node_modules
 # Logs
 logs
 *.log

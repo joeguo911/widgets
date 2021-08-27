@@ -1,7 +1,7 @@
 {
-  "name": "@cryptotest/coinblocks",
+  "name": "@cryptotest/common",
   "version": "1.0.1",
-  "description": "A coin blocks widget",
+  "description": "Common components for widgets",
   "keywords": [
     "react",
     "component"
@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joeguo911/widgets.git",
-    "directory": "packages/coinblocks"
+    "directory": "packages/common"
   },
   "scripts": {
     "prebuild": "rimraf dist",
@@ -48,9 +48,5 @@
   "peerDependencies": {
     "react": ">=16.8.6"
   },
-  "gitHead": "56c96d48d574df3308058bb714e00d204e336974",
-  "dependencies": {
-    "@cryptotest/common": "^1.0.1",
-    "@cryptotest/utils": "^1.0.0"
-  }
+  "gitHead": "56c96d48d574df3308058bb714e00d204e336974"
 }

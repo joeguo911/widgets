@@ -1,0 +1,1 @@
+lerna add lodash packages/module-1
