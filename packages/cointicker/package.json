@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/cointicker",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A coin ticker widget",
   "keywords": [
     "react",

@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/common",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Common components for widgets",
   "keywords": [
     "react",

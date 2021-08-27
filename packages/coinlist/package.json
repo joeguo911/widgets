@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/coinlist",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A coin list widget",
   "keywords": [
     "react",
