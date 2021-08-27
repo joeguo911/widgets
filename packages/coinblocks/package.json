@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/coinblocks",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A coin blocks widget",
   "keywords": [
     "react",
@@ -48,9 +48,8 @@
   "peerDependencies": {
     "react": ">=16.8.6"
   },
-  "gitHead": "56c96d48d574df3308058bb714e00d204e336974",
   "dependencies": {
-    "@cryptotest/common": "1.0.1",
-    "@cryptotest/utils": "1.0.1"
+    "@cryptotest/common": "1.0.0",
+    "@cryptotest/utils": "1.0.0"
   }
 }

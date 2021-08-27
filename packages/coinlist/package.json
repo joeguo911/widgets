@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/coinlist",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A coin list widget",
   "keywords": [
     "react",
@@ -47,6 +47,5 @@
   },
   "peerDependencies": {
     "react": ">=16.8.6"
-  },
-  "gitHead": "56c96d48d574df3308058bb714e00d204e336974"
+  }
 }
