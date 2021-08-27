@@ -52,6 +52,8 @@
     "@cryptotest/coinblocks": "1.0.2",
     "@cryptotest/coinlist": "1.0.2",
     "@cryptotest/cointicker": "^1.0.1",
-    "@cryptotest/marquee": "^1.0.1"
+    "@cryptotest/common": "^1.0.2",
+    "@cryptotest/marquee": "^1.0.1",
+    "@cryptotest/utils": "^1.0.1"
   }
 }
