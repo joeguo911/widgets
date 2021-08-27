@@ -49,8 +49,8 @@
     "react": ">=16.8.6"
   },
   "dependencies": {
-    "@cryptotest/coinblocks": "1.0.0",
-    "@cryptotest/coinlist": "1.0.0",
+    "@cryptotest/coinblocks": "^1.0.0",
+    "@cryptotest/coinlist": "^1.0.0",
     "@cryptotest/cointicker": "^1.0.0",
     "@cryptotest/common": "^1.0.0",
     "@cryptotest/marquee": "^1.0.0",
