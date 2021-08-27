@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "common funtions for widgets",
   "keywords": [
     "react",

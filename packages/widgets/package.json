@@ -1,6 +1,6 @@
 {
   "name": "@cryptotest/widgets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "widgets",
   "keywords": [
     "react",
@@ -49,11 +49,11 @@
     "react": ">=16.8.6"
   },
   "dependencies": {
-    "@cryptotest/coinblocks": "1.1.0",
-    "@cryptotest/coinlist": "1.0.1",
-    "@cryptotest/cointicker": "1.0.1",
-    "@cryptotest/common": "1.0.1",
-    "@cryptotest/marquee": "1.0.1",
-    "@cryptotest/utils": "1.0.1"
+    "@cryptotest/coinblocks": "1.1.1",
+    "@cryptotest/coinlist": "1.0.2",
+    "@cryptotest/cointicker": "1.0.2",
+    "@cryptotest/common": "1.0.2",
+    "@cryptotest/marquee": "1.0.2",
+    "@cryptotest/utils": "1.0.2"
   }
 }
