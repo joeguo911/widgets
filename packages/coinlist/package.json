@@ -43,9 +43,13 @@
     "lint:types": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.172",
     "react": "^17.0.1"
   },
   "peerDependencies": {
     "react": ">=16.8.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
