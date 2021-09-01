@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-
+import './style.css'
 export type FlexContainerPropsType = {
 	children: ReactNode
 	styles?: any,
@@ -9,7 +9,7 @@ export type FlexContainerPropsType = {
 export const FlexContainer = (props: FlexContainerPropsType) => {
 	const {children, styles = {}, click=()=>{} } = props
 	return (
-		<div style={{'display': 'flex', ...styles}} onClick={click}>
+		<div className='widget_common-flex-container' style={styles} onClick={click}>
 			{children}
 		</div>
 	)

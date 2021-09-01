@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { CoinBlocks } from '@cryptotest/widgets'
+import { CoinBlocks, CoinList, Marquee } from '@cryptotest/widgets'
 const slugs: string[] = ['ethereum', 'bitcoin', 'koala-token', 'cardano', 'venus-xrp','binance-coin', 'usd-coin']
 
 function App() {
@@ -27,8 +27,11 @@ function App() {
       </div>
       <p style={{textAlign: 'left',fontWeight: 'bold'}}>CoinBlock</p>
       <div style={{width: '80vw', margin: 'auto', border: '1px solid #c8b9b9', padding: '10px', overflow: 'auto'}}>
-        <CoinBlocks slugs={displaySlugs} />
+        {/* <CoinBlocks slugs={displaySlugs} /> */}
       </div>
+      <br></br>
+        <CoinList slugs={displaySlugs} />
+        <Marquee slugs={displaySlugs}/>
     </div>
   );
 }

@@ -1,0 +1,7 @@
+.widget-coinList_listItem {
+  display: flex;
+  font-size: 16px;
+  margin: 8px 0;
+  height: 27px;
+  align-items: center;
+}

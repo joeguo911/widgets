@@ -1,21 +1,23 @@
-import * as React from "react"
+import React from 'react'
 import { get } from "lodash"
-import { FlexContainer } from '@cryptotest/common'
 import { getTokensData, useTokenMessageMapBySymbols } from '@cryptotest/utils'
-import { TokenBlock } from './tokenblock'
+import { FlexContainer } from '../flexcontainer'
+import { WidgetItemWrapper } from './widgetitemwrapper'
+export type WidgetItemPropsType = {
+  tokenInfo: any
+}
 
-export type CoinBlocksProps = {
-	slugs: string[]
+export type WidgetWraperPropsType = {
+  component: React.ComponentType<any>
+  slugs: string[]
 	url?: string
 	styles?: any
 	wsUrl?: string
+	itemWrapperStyles?: any
 }
-const CoinBlocksContainer = {
-	flexDirection: 'row',
-	gap: '16px'
-}
-export const CoinBlocks = (props: CoinBlocksProps) => {
-	const {slugs, styles={}, url, wsUrl} = props
+
+export const WidgetWraper = (props: WidgetWraperPropsType) => {
+  const {slugs, styles={}, url, wsUrl, component: Component, itemWrapperStyles} = props
 	const [tokensData, setTokensData] = React.useState<any[]>([])
 	const [isLoading, setLoading] = React.useState(true)
 	const [symbols, setSymbols] = React.useState<string[]>([])
@@ -31,21 +33,24 @@ export const CoinBlocks = (props: CoinBlocksProps) => {
 
 	}, [slugs])
 	const tokenMessageMap = useTokenMessageMapBySymbols(symbols)
-	return (
+  return (
     <>
       {
         isLoading ? <p>isLoading</p> : (
-					<FlexContainer styles={{...CoinBlocksContainer, ...styles}}>
+					<FlexContainer styles={{...styles}}>
 						{
 							tokensData.map((info:any, index: number) => {
 								info.usd_price = get(tokenMessageMap, [info.symbol, 'usd_price']) || info.usd_price
-								return <TokenBlock key={index} tokenInfo={info}/>
+								return (
+                  <WidgetItemWrapper key={index} slug={info.slug} styles={itemWrapperStyles}>
+                    <Component tokenInfo={info}/>
+                  </WidgetItemWrapper>
+                )
 							})
 						}
 					</FlexContainer>
 				)
       }
     </>
-  
-	)
+  )
 }

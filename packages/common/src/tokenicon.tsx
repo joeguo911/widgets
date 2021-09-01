@@ -15,6 +15,7 @@ export const TokenIcon = ({slug, width, quality}: TokenIconPropsType) => {
 	return (
 		<img
 			width='28px'
+			height='28px'
 			src={getImageUrl(slug, width, quality)}
 		/>
 	)

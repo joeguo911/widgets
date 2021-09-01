@@ -56,6 +56,8 @@
     "@cryptotest/common": "1.0.2",
     "@cryptotest/marquee": "1.0.2",
     "@cryptotest/utils": "1.0.2",
+    "@types/react": "^17.0.19",
+    "babel-plugin-react-css-modules": "^5.2.6",
     "lodash": "^4.17.21"
   }
 }

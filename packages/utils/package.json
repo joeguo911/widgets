@@ -50,6 +50,8 @@
     "react": ">=16.8.6"
   },
   "dependencies": {
+    "@types/react": "^17.0.19",
+    "babel-plugin-react-css-modules": "^5.2.6",
     "lodash": "^4.17.21"
   }
 }
